@@ -1,0 +1,44 @@
+{
+  "assets": [],
+  "build": {
+    "build_number": 0,
+    "build_time": 0,
+    "release": false
+  },
+  "encryptLevel": 0,
+  "useFeatures": [],
+  "launchConfig": {
+    "displaySplash": true,
+    "hideLogs": false,
+    "splashText": "Powered by Auto.js Pro",
+    "stableMode": true
+  },
+  "main": "main.js",
+  "name": "Genshin Impact Piano",
+  "optimization": {
+    "removeAccessibilityService": false,
+    "removeOpenCv": false,
+    "unusedResources": false
+  },
+  "packageName": "com.gip.gip",
+  "permissionConfig": {
+    "requestListOnStartup": [
+      "android.permission.WRITE_EXTERNAL_STORAGE"
+    ]
+  },
+  "publish": {
+    "category": "其他",
+    "details": "test",
+    "maxAutoJsVersion": -1,
+    "maxProVersion": 8189999,
+    "minAutoJsVersion": -1,
+    "minProVersion": 8180000,
+    "minSdkVersion": 2,
+    "permissions": [],
+    "summary": "demo",
+    "tags": []
+  },
+  "scripts": {},
+  "versionCode": 1,
+  "versionName": "0.1"
+}
