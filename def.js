@@ -185,7 +185,7 @@ function txt_kt(path){
 pos=0;pau=0;var l_key;speed=1;tn=0;var tick0
 function l_play(l_key,l_time,pos){
     var i=0;
-    while(l_time[i]<pos){i++}//根据POS找到演奏位置
+    while(l_time[i]<pos){i++}// 根据POS找到演奏位置
     tick0=time()-1000*pos;dt=0
     for(i;i<l_time.length;i++){
         while(dt<1000*l_time[i]){

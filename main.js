@@ -4,7 +4,7 @@ eval(files.read("def.js"))//导入def模块
 
 
 
-//txt_kt(path)                    从txt文件  ==>  l_key,l_time
+//txt_kt(path)                   从txt文件  ==>  l_key,l_time
 //l_play(l_key,l_time,pos)        l_key,l_time,pos  ==>  演奏(pau==0,暂停)
 //var path = './乐谱/test.txt';
 
@@ -25,7 +25,7 @@ var window = floaty.window(
             <seekbar id="sek" w="272" h="40dp"></seekbar>
         </vertical>
         <vertical>
-            <list id="lit" h="0dp" >
+            <list id="lit" h="0dp">
                 <vertical>
                     <button id="name" w="272dp" h="40dp" text="{{name}}" textColor="#000000"/>
                 </vertical>
