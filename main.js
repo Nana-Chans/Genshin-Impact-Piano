@@ -10,7 +10,7 @@ eval(files.read("def.js"))//导入def模块
 
 //主窗口
 var window = floaty.window(
-    <horizontal>
+    <vertical>
         <vertical bg="#70000000" w='272dp' h="120dp" id="vi">
             <horizontal>
                 <button id="sdt" w="56dp" h="40dp" text="读取"/>
@@ -30,10 +30,9 @@ var window = floaty.window(
                     <button id="name" w="272dp" h="40dp" text="{{name}}" textColor="#000000"/>
                 </vertical>
             </list>
-            <text id="bbs" h="0dp" gravity="center" text=''/>
             <seekbar id="bs" w="272" h="0dp" progress="50"></seekbar>
         </vertical>
-    </horizontal>
+    </vertical>
 );window.exitOnClose();//悬浮窗关闭后停止脚本
 
 

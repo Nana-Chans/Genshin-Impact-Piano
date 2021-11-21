@@ -231,8 +231,8 @@ function 读取(d_q){
     if(d_q==0){items=[];op;window.lit.attr('h','0dp');ops=0}
 }
 function 倍速(b_s){
-    if(b_s==1){window.bbs.attr('h','70dp');window.bs.attr('h','40dp');bss=1}
-    if(b_s==0){window.bbs.attr('h','0dp');window.bs.attr('h','0dp');bss=0}
+    if(b_s==1){window.bs.attr('h','40dp');bss=1}
+    if(b_s==0){window.bs.attr('h','0dp');bss=0}
     
 } 
 
